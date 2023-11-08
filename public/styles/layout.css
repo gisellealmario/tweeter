@@ -32,6 +32,40 @@ body {
   margin-left: 20px;
 }
 
+.new-tweet {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.tweetsubmit {
+  font-family: 'Bungee';
+}
+
+.blue-button {
+  display: flex;
+  background-color: blue;
+  color: #ffffff;
+}
+
+.tweet-border {
+  border-bottom: 1px solid #545149;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-width: 4px;
+  width: auto;
+  display: flex;
+
+}
+
+.hummingbold {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+}
+
+.counter {
+  display: flex;
+  font-family: 'Bungee';
+  justify-content: flex-end;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

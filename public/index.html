@@ -57,11 +57,19 @@
     </header>
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <span>What are you humming about</span>
-      <div><h2>hello John</h2></div>
-      <p>
-        I love tweeter
-      </p>
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form>
+          <span class="hummingbold"><label for="tweet-text">What are you humming about?</label></span>
+          <textarea name="text" id="tweet-text" style="width: 421px;height: 72px; background-color: #d6a185; background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);   background-size: 500px;
+          "></textarea>
+          <div class="tweet-border"></div>
+          <div>
+            <span class="tweetsubmit"><button type="submit" class="blue-button">Tweet</button></span>
+            <span class="counter"><output name="counter" class="counter" for="tweet-text">140</output></span>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
