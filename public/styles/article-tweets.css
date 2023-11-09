@@ -26,6 +26,7 @@ article.tweet footer{
   display: flex;
   margin: 10px;  
   font-size: medium;
+  justify-content: flex-end;
 } 
 
 #img2 {
@@ -33,21 +34,21 @@ article.tweet footer{
   margin-top: 15px;
   color: navy;
   position:relative;
-  left: 1100px;
+
 }
 #img3 {
   padding: 0 2.5em;
   margin-top: 15px;
   color: navy;
   position: relative;
-  left: 950px;
+
 }
 #img4 {
   padding: 0 2.5em;
   margin-top: 15px;
   color: navy;
   position: relative;
-  left: 950px;
+
 }
 
 
