@@ -15,7 +15,10 @@ article:hover {
 
 article.tweet header {
   overflow: hidden; 
-  margin-top: 190px;
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 
@@ -56,6 +59,16 @@ article.tweet footer{
 }
 #img4:hover {
   filter: drop-shadow(4px 4px 4px #4444dd); 
+}
+
+.tweet-border2 {
+  border-bottom: 1px solid #545149;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-width: 4px;
+  width: auto;
+  display: flex;
+
 }
 
 
