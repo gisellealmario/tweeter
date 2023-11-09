@@ -1,0 +1,62 @@
+ 
+article {
+  border: solid;   
+  overflow: hidden; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 306px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+article:hover {
+  box-shadow: 5px 10px grey; 
+} 
+
+article.tweet header {
+  overflow: hidden; 
+  margin-top: 190px;
+}
+
+
+article.tweet footer{
+  display: flex;
+  margin: 10px;  
+  font-size: medium;
+} 
+
+#img2 {
+  padding: 0 2.5em;
+  margin-top: 15px;
+  color: navy;
+  position:relative;
+  left: 1100px;
+}
+#img3 {
+  padding: 0 2.5em;
+  margin-top: 15px;
+  color: navy;
+  position: relative;
+  left: 950px;
+}
+#img4 {
+  padding: 0 2.5em;
+  margin-top: 15px;
+  color: navy;
+  position: relative;
+  left: 950px;
+}
+
+
+#img2:hover {
+  filter: drop-shadow(4px 4px 4px #4444dd); 
+}
+#img3:hover {
+  filter: drop-shadow(4px 4px 4px #4444dd); 
+}
+#img4:hover {
+  filter: drop-shadow(4px 4px 4px #4444dd); 
+}
+
+
+
