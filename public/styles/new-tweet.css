@@ -1,0 +1,22 @@
+form{
+  display:flex; 
+  flex-direction: column;
+} 
+.footer{ 
+  display: flex;
+  justify-content: space-between; 
+  font-family: 'Bungee', cursive; 
+} 
+
+button{
+  background-color: #4056A1 ; 
+  color: #FFFFFF; 
+  margin-bottom: 10px;
+
+} 
+
+#tweet-text{
+  border: none; 
+  border-bottom: solid; 
+  margin-bottom: 10px;
+} 

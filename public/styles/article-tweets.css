@@ -1,76 +1,51 @@
- 
-article {
+article{
   border: solid;   
   overflow: hidden; 
   margin-top: 30px;
-  margin-bottom: 30px;
-  height: 306px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: 'Source Sans 3', sans-serif;
-}
+  font-family: sans-serif;
+  
+}  
 article:hover {
-  box-shadow: 5px 10px grey; 
+  box-shadow: 5px 10px rgba(169, 169, 169, 0.332); 
 } 
-
-article.tweet header {
-  overflow: hidden; 
-  margin-top: 30px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-}
-
-
-article.tweet footer{
-  display: flex;
-  margin: 10px;  
-  font-size: medium;
-  justify-content: flex-end;
-} 
-
 #img2 {
-  padding: 0 2.5em;
-  margin-top: 15px;
   color: navy;
-  position:relative;
 
 }
 #img3 {
-  padding: 0 2.5em;
-  margin-top: 15px;
   color: navy;
-  position: relative;
 
 }
 #img4 {
-  padding: 0 2.5em;
-  margin-top: 15px;
   color: navy;
-  position: relative;
 
 }
-
-
-#img2:hover {
+#img3:hover{
   filter: drop-shadow(4px 4px 4px #4444dd); 
-}
-#img3:hover {
+} 
+#img2:hover{
   filter: drop-shadow(4px 4px 4px #4444dd); 
-}
-#img4:hover {
+} 
+#img4:hover{
   filter: drop-shadow(4px 4px 4px #4444dd); 
+  
 }
-
-.tweet-border2 {
-  border-bottom: 1px solid #545149;
-  padding-bottom: 5px;
-  display: inline-block;
-  border-width: 4px;
-  width: auto;
+.tweet-header {
   display: flex;
+  justify-content: space-between; 
+  margin: 15px;  
+}  
+footer{
+  display: flex;
+  justify-content: space-between; 
+  margin: 10px;  
+} 
+.older-tweets {
+  width: 95%; 
+  margin-left: 20px; 
+  border: none; 
+  border-bottom: solid; 
+  margin-bottom: 5px; 
+  padding-bottom: 20px;
 
-}
-
-
-
+} 
