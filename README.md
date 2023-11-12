@@ -16,6 +16,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- 
 
-!["Desktop view of the app"] (https://github.com/gisellealmario/tweeter/blob/master/docs/tweeter-desktop.png?raw=true)
-!["Mobile view of the app"] (https://github.com/gisellealmario/tweeter/blob/master/docs/tweeter-mobile.png?raw=true)
+# Screenshots
+!["Desktop view of the app"](https://github.com/gisellealmario/tweeter/blob/master/docs/tweeter-desktop.png?raw=true)
+!["Mobile view of the app"](https://github.com/gisellealmario/tweeter/blob/master/docs/tweeter-mobile.png?raw=true)
