@@ -6,7 +6,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -19,16 +22,18 @@ body {
   color: #545149;
   background-color: #d6a185;
   background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
-  background-size: 500px;
-  font-size: 24px;
+  height: 120px;
+  content: '';
 }
 
 .container {
   width: 90%;
   background-color: #d6a185;
   background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
-  background-size: 500px;
-  margin-inline: auto;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .new-tweet {
@@ -75,7 +80,35 @@ body {
   background-size: auto;
 }
 
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 100px;
+
+  }
+
+  .profile {
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+
+
+  }
+
+  .container {
+    margin-right: 40px;
+    margin-top: 100px;
+  }
+
+  #profile-img {
+    height: 225px;
+    width: 225px;
+  }
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-
