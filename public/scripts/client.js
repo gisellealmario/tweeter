@@ -11,19 +11,21 @@
 $(document).ready(function() { 
   $('form').on('submit', function(event) {
     event.preventDefault();
-    const length = $('textarea').val().length; 
-    if (length === 0) {
+    const tweetText = $('textarea').val().trim(); 
+    const lengthWithoutSpaces = tweetText.replace(/\s/g, '').length; 
+    
+    if (lengthWithoutSpaces === 0) {
       document.getElementById('error1').classList.remove('hide');
-      $('.error1').slideDown(); 
-      return
-    } else if (length > 140) { 
+      $('.error1').slideDown();
+      return;
+    } else if (lengthWithoutSpaces > 140) {
       document.getElementById('error2').classList.remove('hide');
-      $('.error2').slideDown(); 
-      return
-    } 
+      $('.error2').slideDown();
+      return;
+    }
     $.ajax({
       method: 'POST', 
-      data: $(this).serialize(), 
+      data: { text: tweetText },
       url: '/tweets', 
       success: function() { 
         $('form')[0].reset(); 

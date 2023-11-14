@@ -38,6 +38,11 @@ article:hover {
 
 }
 
+.tweet-header {
+  display: flex;
+  justify-content: space-between; 
+  margin: 15px;  
+}  
 
 
 footer {
