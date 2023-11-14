@@ -12,7 +12,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+.name1{
+  color: white;
+  font-family: "Bungee";
+}
 /*
  * Global layout stuff
  */
@@ -39,6 +42,8 @@ html {
     justify-content: space-between;
     flex-direction: row;
     margin-top: 100px;
+    background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
+    background-color: #d6a185;
 
   }
 
@@ -47,8 +52,7 @@ html {
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 50px;
-
-
+    
   }
 
   .container {
