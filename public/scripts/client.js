@@ -11,15 +11,15 @@
 $(document).ready(function() { 
   $('form').on('submit', function(event) {
     event.preventDefault();
-    const tweetText = $('textarea').val().trim(); 
-    const lengthWithoutSpaces = tweetText.replace(/\s/g, '').length; 
+    $('.error1').slideUp();
+    $('.error2').slideUp();
+
+    const tweetText = $('textarea').val().trim();
     
-    if (lengthWithoutSpaces === 0) {
-      document.getElementById('error1').classList.remove('hide');
+    if (tweetText.length === 0) {
       $('.error1').slideDown();
       return;
-    } else if (lengthWithoutSpaces > 140) {
-      document.getElementById('error2').classList.remove('hide');
+    } else if (tweetText.length > 140) {
       $('.error2').slideDown();
       return;
     }
