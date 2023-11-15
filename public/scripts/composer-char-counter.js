@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".new-tweet textarea").on("keyup", function() {
+  $(".new-tweet textarea").on("input", function() {
     const inputLength = $(this).val().length; // Get the length of the current value in the textarea
     const counter = $(this).closest("form").find(".counter");
 
