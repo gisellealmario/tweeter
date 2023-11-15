@@ -31,7 +31,7 @@ html {
 
 } 
 
-
+/* where the tweets located */
 .container {
   width: 90%; 
   color: #545149;
@@ -40,7 +40,7 @@ html {
 }
 
 
-
+/* mobile layout*/
 @media only screen and (min-width: 768px) {
   body {
     display: flex;

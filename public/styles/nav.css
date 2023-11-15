@@ -1,3 +1,4 @@
+/* top body style */
 nav {
   display: flex;
   height: 120px;
@@ -15,7 +16,7 @@ nav {
   font-size: 150%;
 
 }
-
+/* write a new tweet and arrow */
 .comment {
   font-family: 'Source Sans Pro', sans-serif; 
   display: flex; 
@@ -24,7 +25,7 @@ nav {
   align-items: center;
 }
 
-
+/* arrow style */
 #image1 {
   color: red;
   justify-content: flex-end;
