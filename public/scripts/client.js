@@ -25,6 +25,7 @@ $(document).ready(function() {
       $('.error2').slideDown();
       return;
     }
+    
 
     // Perform an AJAX POST request to the server to save the tweet
     $.ajax({
